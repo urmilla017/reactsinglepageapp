@@ -1,14 +1,125 @@
 body {
+  background-color: #FFFFFF;
+  padding: 20px;
   margin: 0;
-  padding: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+}
+h1 {
+  text-align: center;
+  font-family: 'Impact';
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+.header {
+  color: #00000;
+  margin: auto;
+  text-align: center;
+}
+
+.header {
+  background-color: rgb(213, 213, 213);
+  padding: 0;
+}
+
+li {
+  display: inline;
+  list-style-type: none;
+  margin: 0;
+}
+
+li a {
+  color: rgb(46, 86, 255);
+  font-weight: bold;
+  font-size: 30px;
+  text-decoration: none;
+  padding: 15px 100px 15px 100px;
+  display: inline-block;
+}
+
+li a:hover {
+  color: rgb(135, 162, 255);
+}
+
+.content {
+  background-color: #FFF;
+  padding: 20px;
+}
+
+.homeContent {
+  font-size: 20px;
+  line-height: 50px;
+}
+
+.homeALink {
+  font-size: 30px;
+  text-shadow: 2px 2px 4px #000000;
+  color: #ff0000;
+}
+
+.homeALink:visited {
+  color: #ff0000;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+.homeALink:hover {
+  color: rgb(255, 129, 129);
+  text-shadow: 2px 2px 4px #000000;
+}
+
+.newsTabStyle {
+  text-align: center;
+}
+
+.newsButton {
+  height: 50px;
+  font-size: 25px;
+  background-color: rgb(60, 161, 255);
+  border-radius: 20px;
+  border: 1px;
+  padding: 10px;
+  box-shadow: 5px 10px 18px #888888;
+  cursor: pointer;
+}
+
+.newsBox {
+  margin: auto;
+  width: 800px;
+  background-color: 'red';
+  text-align: center;
+}
+
+.newsTitle {
+  font-family: sans-serif;
+}
+
+.newsContent {
+  font-family: monospace;
+}
+
+.newsDesc {
+  font-family: sans-serif;
+}
+
+.newsImage {
+  width: 500px;
+  height: 350px;
+}
+
+hr {
+  border-color: #7a7a7a;
+}
+
+.categoryButtonStyle {
+  margin:0px 20px 0px 20px;
+  height: 50px;
+  font-size: 25px;
+  background-color: rgb(60, 161, 255);
+  border-radius: 20px;
+  border: 1px;
+  padding: 10px;
+  box-shadow: 5px 10px 18px #888888;
+  cursor: pointer;
+}
+
+.categoryButtonStyle:hover {
+  background-color: #ade4ff;
 }
